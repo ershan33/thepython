@@ -1,5 +1,3 @@
-public:: true
-
 - #literal #[[string literal]]
 - 使用单引号表示[[字符串]]：`'hello'`
 - 使用双引号表示[[字符串]]：`"world"`

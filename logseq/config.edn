@@ -58,6 +58,8 @@
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
  ;; :publishing/all-pages-public? true
+:publishing/all-pages-public? true
+:default-home {:page "README" :sidebar ["contents"]}
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
