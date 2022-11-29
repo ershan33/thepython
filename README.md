@@ -1,2 +1,9 @@
-# thepython
-The useful and fun python!
+- # Python 语言圣经（不是）
+- {{renderer :toc_gtumxhaw}}
+	- ## 前言
+	- 写这边书单纯是为了致敬 [Rust 语言圣经 - Rust语言圣经(Rust Course)](https://course.rs/about-book.html)，自从拜读过这本书（虽然没读完）之后，一直心心念念想写一本有关Python的编程书，可惜自己能力有限，故为了加以区分，有此书名。
+	- 此外还要感谢[GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/)，[Cloudflare Pages](https://pages.cloudflare.com/)，[Logseq: A privacy-first, open-source knowledge base](https://logseq.com/)的诸多好用的工具集。
+	-
+	- ##
+	-
+	-

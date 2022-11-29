@@ -1,1 +1,1 @@
-- {{query property public}}
+-
