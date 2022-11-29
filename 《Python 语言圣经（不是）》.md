@@ -1,4 +1,3 @@
-- {{renderer :tocgen}}
 - ## 前言
 	- 写这本书单纯是为了致敬 [Rust 语言圣经](https://course.rs/about-book.html)，自从拜读过它（虽然没读完）之后，一直心心念念想写一本类似的有关 Python 的编程书，可惜自己能力有限，难以望其项背，为了加以区分，故有此书名。
 	- 此外还要感谢 [GitHub Pages](https://pages.github.com/)，[Cloudflare Pages](https://pages.cloudflare.com/)，[Logseq](https://logseq.com/) 等诸多好用的工具集。
