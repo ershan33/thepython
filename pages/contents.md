@@ -7,5 +7,13 @@
 			- [[macOS 下安装 Python]]
 			- [[Linux 下安装 Python]]
 			- [[Windows 下安装 Python]]
-		-
+		- [[使用命令行运行 Python]]
+		- [[IDLE 基础教程]]
+		- [[安装并配置 VSCode]]
+		- [[安装并配置 PyCharm]]
+		- [[安装 Anaconda]]
+		- [[认识 pip]]
+		- [[不仅仅是 Hello World]]
+		- [[下载依赖太慢了？]]
+		- [[避免从入门到放弃]]
 -
