@@ -1,7 +1,8 @@
 - [[Python 语言圣经（不是）]]
 - [[进入 Python 编程世界]]
 - 快速开始
-	- [[安装 Python 解释器]]
-		- [[Windows 下安装 Python]]
+	- [[寻找牛刀，以便小试]]
+		- [[安装 Python 解释器]]
+			- [[Windows 下安装 Python]]
 	-
 -
