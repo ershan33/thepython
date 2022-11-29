@@ -3,5 +3,6 @@
 	- 写这本书单纯是为了致敬 [Rust 语言圣经 - Rust 语言圣经 (Rust Course)](https://course.rs/about-book.html)，自从拜读过它（虽然没读完）之后，一直心心念念想写一本类似的有关 Python 的编程书，可惜自己能力有限，难以望其项背，为了加以区分，故有此书名。
 	- 此外还要感谢 [GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/)，[Cloudflare Pages](https://pages.cloudflare.com/)，[Logseq: A privacy-first, open-source knowledge base](https://logseq.com/) 等诸多好用的工具集。
 - ## 本书食用指南
--
+	- 本书基于[[logseq]]编写，核心就是利用双链笔记方便把知识点串联到一起，好处是可以很容易的跳转到不懂的知识点，坏处是容易迷失，跳着跳着就忘记自己原本的目的是什么了。
+	- 因此相比于按照顺序阅读，更推荐把它当作一本参考手册，需要时通过搜索功能翻阅查找。
 -
