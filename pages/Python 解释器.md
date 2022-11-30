@@ -1,4 +1,5 @@
-note-type:: 基础笔记
+tags::  基础笔记
+title::  Python 解释器
 
 - Python 解释器的作用就是把我们用人类可以理解的程序语句转换成机器能够理解的 0 和 1 序列。
   id:: 638615ce-bf68-4ccc-a1c9-dd7bafa2d6f1
@@ -9,4 +10,3 @@ note-type:: 基础笔记
 	- **PyPy：**PyPy 是一种 Python 编程语言的实现，可用于替代 CPython。PyPy 通常运行得比 CPython 更快，大多数情况下与 CPython 兼容性良好。
 	- **Jython：**使用 Java 实现的 Python 解释器，直接把 Python 代码编译成 Java 字节码执行。
 	- **IronPython：**IronPython 是 Python 解释器的开源实现，运行在微软 .net 平台上，可以直接把 Python 代码编译成 .net 的字节码。
--

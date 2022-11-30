@@ -1,0 +1,4 @@
+- 打开 [Python Releases for macOS | Python.org](https://www.python.org/downloads/macos/)，选择以 **64-bit universal2 installer** 结尾的链接下载。
+- 之后按照正常安装软件的步骤拖拽安装即可。
+- 附带一个 b 站的安装教程：
+	- {{video https://www.bilibili.com/video/BV1JU4y1g7YE?t=12.9}}
