@@ -21,10 +21,10 @@ tags:: built-in, builtins, python/class, python/primitive
 	- 我们在写程序的时候可能会进行人机交互，需要用[[字符串]]作为提示或者展示信息。
 	- 文本是我们日常生活中重要的信息载体，**存储和处理**文本是常见的编程需求。
 - ## How
-	- ### [[python/str/representation]]
+	- ### [[str/representation]]
 	- ### [[python/str operator]]
 	  id:: 635d5ce2-dd4f-4e80-9949-e80563fbf5c4
-	- ### [[python/str/method]]
+	- ### [[str/method]]
 - ## [[python/exception]]
 	- 使用**中文引号**创建 [[字符串]] 会造成 [[语法错误]] 。#SyntaxError #beginner
 		- ```python

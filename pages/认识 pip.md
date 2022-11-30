@@ -1,4 +1,3 @@
--
 - {{embed [[pip]]}}
 - 安装好 Python 以后可以用下面的方法确认你的 `pip` 是正常工作的：
 	- ```sh
@@ -25,4 +24,3 @@
 	  ModuleNotFoundError: No module named 'notexists'
 	  ```
 - LATER 整理有关 `pip` 环境变量缺失引发的错误
--
