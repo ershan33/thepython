@@ -13,7 +13,7 @@ tags:: built-in, builtin_function_or_method
 	  flush: whether to forcibly flush the stream.
 	  Type:      builtin_function_or_method
 	  ```
-	- `print` 的功能是把 [[值]] 打印到 [[流]] 里，默认是 [[标准输出]]流。
+	- `print` 的功能是把 [[值]] 打印到 [[流]] 里，默认是 [[标准输出]]流，可以重定向到文件。
 - ## 用法示例
 	- ### 打印多个值
 		- ```python
@@ -46,7 +46,7 @@ tags:: built-in, builtin_function_or_method
 		  1, 2, 3
 		  ```
 		- `sep` 的默认值是单个空格 ` `（2， 3行打印结果相同）。
-	- ### 使用 `end` 单数设定结尾符
+	- ### 使用 `end` 参数设定结尾符
 		- ```python
 		  # print_ex3.py
 		  print('hello', end=' ')
@@ -57,4 +57,28 @@ tags:: built-in, builtin_function_or_method
 		  > python print_ex3.py
 		  hello world!
 		  ```
-	-
+	- ### 使用 `file`参数重定向流到文件
+		- ```python
+		  # print_ex4.py
+		  with open('print_ex4.txt', 'w') as f:
+		      print('hello world', file=f)
+		  ```
+		- 此处创建了一个可写的文件对象，使用 `file` 参数将打印结果重定向到文件。
+		- ```python
+		  > python print_ex4.py
+		  > cat print_ex4.txt
+		  hello world
+		  ```
+	- ### 使用 `flush` 刷新流
+		- ```python
+		  # print_ex5.py
+		  import time
+		  
+		  for _ in range(10):
+		      print('.', end='', flush=True)
+		      time.sleep(.1)
+		  
+		  print('\ndone')
+		  ```
+		- ![flush](../assets/print_ex5.gif)
+-
