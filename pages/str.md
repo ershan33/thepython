@@ -1,5 +1,6 @@
 tags:: built-in, builtins, 类, 基础类型, 基础笔记
 alias:: 字符串
+title:: str
 
 - ## 定义
 	- [[字符串]]是[[python]]中用于**存储和处理**文本的基础 [[数据类型]]
