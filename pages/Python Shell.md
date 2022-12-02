@@ -9,7 +9,7 @@ title:: Python Shell
 ## How
 	- 安装好[[Python]]以后（确保[[python]]在 [[环境变量]] 中），使用 [[cmd]] 输入[[python]]即可。
 	- 或者在桌面找到[[idle]]的图标（使用开始菜单搜索[[idle]]）也可以，点击打开即可。
-	- 当执行[[简单语句]] [[python/simple statement]]时，输入一行语句按下回车后会马上执行：
+	- 当执行[[简单语句]] [[simple statement]]时，输入一行语句按下回车后会马上执行：
 		- ```python
 		  >>> age = 10
 		  >>> age
@@ -20,7 +20,7 @@ title:: Python Shell
 		  >>> age, name
 		  (10, 'ershan')
 		  ```
-	- 当执行[[python/复合语句]] [[python/compound statement]]时，需要输入连续的两次回车才会执行：
+	- 当执行[[复合语句]]时，需要输入连续的两次回车才会执行：
 		- ```python
 		  >>> for i in range(3):
 		  ...     print(i)
@@ -31,7 +31,7 @@ title:: Python Shell
 		  ```
 		- 在交互时环境中`>>>`被称为[[提示符]]，提示用户后面可以进行输入。`...`表示当前行之后还有后续语句，除非用户输入两次连续的回车。
 - ## [[python/exception]]
-	- 在 [[交互式环境]] 下编写 [[python/复合语句]] 忘记 [[缩进]] 将会造[[缩进错误]]。#IndentationError #beginner
+	- 在 [[交互式环境]] 下编写 [[python的复合语句]] 忘记 [[缩进]] 将会造[[缩进错误]]。#IndentationError #beginner
 		- ```python
 		  >>> for i in range(3):
 		  ... print(i)

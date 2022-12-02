@@ -1,8 +1,7 @@
-public:: true
-tags:: built-in, builtins, python/class, python/primitive
+tags:: built-in, builtins, 类, 基础类型, 基础笔记
 alias:: 字符串
 
-- ## What
+- ## 定义
 	- [[字符串]]是[[python]]中用于**存储和处理**文本的基础 [[数据类型]]
 	- 可以把 [[字符串]] 理解成我们真实世界中的文字，例如：
 		- 今天天气真好（文字） -> "今天天气真好" （ [[字符串]] ）
@@ -18,14 +17,14 @@ alias:: 字符串
 		  ... c""")
 		  <class 'str'>
 		  ```
-- ## Why
+- ## 为什么需要字符串
 	- 我们在写程序的时候可能会进行人机交互，需要用[[字符串]]作为提示或者展示信息。
 	- 文本是我们日常生活中重要的信息载体，**存储和处理**文本是常见的编程需求。
-- ## How
-	- ### [[str/representation]]
-	- ### [[python/str operator]]
+- ## 如何
+	- ### 表示字符串：[[字符串的表示方法]]
+	- ### 操作字符串：[[字符串的操作符]]
 	  id:: 635d5ce2-dd4f-4e80-9949-e80563fbf5c4
-	- ### [[str/method]]
+	- ### 使用字符串：[[字符串的方法]]
 - ## [[python/exception]]
 	- 使用**中文引号**创建 [[字符串]] 会造成 [[语法错误]] 。#SyntaxError #beginner
 	  id:: 6384dc36-19fe-4c08-a7b1-2c2ade9cc85f
