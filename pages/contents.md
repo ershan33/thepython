@@ -15,6 +15,7 @@
 		- [[开发和学习工具]]
 			- [[Python Shell]]
 			- [[Python Shell Plus: IPython]]
+			- [[Jupyter Notebook]]
 			- [[IDLE 基础教程]]
 			- [[安装并配置 VSCode]]
 			- [[安装并配置 PyCharm]]
