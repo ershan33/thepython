@@ -1,5 +1,6 @@
 public:: true
 tags:: built-in, builtins, python/class, python/primitive
+alias:: 字符串
 
 - ## What
 	- [[字符串]]是[[python]]中用于**存储和处理**文本的基础 [[数据类型]]
