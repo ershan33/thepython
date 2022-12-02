@@ -28,8 +28,9 @@ alias:: 字符串
 	- ### [[str/method]]
 - ## [[python/exception]]
 	- 使用**中文引号**创建 [[字符串]] 会造成 [[语法错误]] 。#SyntaxError #beginner
+	  id:: 6384dc36-19fe-4c08-a7b1-2c2ade9cc85f
 		- ```python
-		  print(“hello world”)
+		  >>> print(“hello world”)
 		  SyntaxError: invalid character '“' (U+201C)
 		  ```
 	- 在单引号表示的[[字符串]]中使用**未[[转义]]的单引号**会造成 [[语法错误]] 。#SyntaxError #escape #beginner
