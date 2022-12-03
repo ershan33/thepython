@@ -30,8 +30,8 @@ title:: Python Shell
 		  2
 		  ```
 		- 在交互时环境中`>>>`被称为[[提示符]]，提示用户后面可以进行输入。`...`表示当前行之后还有后续语句，除非用户输入两次连续的回车。
-- ## [[python/exception]]
-	- 在 [[交互式环境]] 下编写 [[python的复合语句]] 忘记 [[缩进]] 将会造[[缩进错误]]。#IndentationError #beginner
+- ## 常见 [[exception]]
+	- 在 [[交互式环境]] 下编写 [[python的复合语句]] 忘记 [[缩进]] 将会造[[缩进错误]]。#IndentationError #初学者避坑指南
 		- ```python
 		  >>> for i in range(3):
 		  ... print(i)
@@ -40,7 +40,7 @@ title:: Python Shell
 		      ^
 		  IndentationError: expected an indented block
 		  ```
-	- 在 [[交互式环境]]下一次执行多个语句将会造成[[语法错误]]。#SyntaxError #beginner
+	- 在 [[交互式环境]]下一次执行多个语句将会造成[[语法错误]]。#SyntaxError #初学者避坑指南
 		- ```python
 		  >>> for i in range(3):
 		  ...     print(i)
@@ -50,3 +50,4 @@ title:: Python Shell
 		      ^
 		  SyntaxError: invalid syntax
 		  ```
+-

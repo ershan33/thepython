@@ -26,7 +26,7 @@ title:: str
 	- ### 操作字符串：[[字符串的操作符]]
 	  id:: 635d5ce2-dd4f-4e80-9949-e80563fbf5c4
 	- ### 使用字符串：[[字符串的方法]]
-- ## [[python/exception]]
+- ## [[exception]]
 	- 使用**中文引号**创建 [[字符串]] 会造成 [[语法错误]] 。#SyntaxError #beginner
 	  id:: 6384dc36-19fe-4c08-a7b1-2c2ade9cc85f
 		- ```python
