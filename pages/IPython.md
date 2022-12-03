@@ -31,6 +31,8 @@
 		- 使用 `ctrl + r` 搜索获取历史语句
 			- ![获取历史](../assets/ipython_ex3.gif)
 	- ### Magic Methods
+		- `ipython` 提供了诸多便利的魔法方法，它们以 `%` 或者 `%%` 开头。
+			- ![ipython 的魔法方法](../assets/image_1670057863633_0.png)
 		- 使用 `timeit` 计算语句运行时间
 			- ```python
 			  In [2]: %timeit list()
@@ -85,3 +87,4 @@
 			  (bookmark:tpsrc) -> /mnt/c/Users/ershan/Documents/thepython/src
 			  /mnt/c/Users/ershan/Documents/thepython/src
 			  ```
+		-
