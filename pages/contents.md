@@ -5,9 +5,7 @@
 	- [[查看操作系统是 64 位还是 32 位的方法]]
 - [[快速查询入口]]
 - 快速开始
-  collapsed:: true
 	- [[寻找牛刀，以便小试]]
-	  collapsed:: true
 		- [[安装 Python 解释器]]
 		  collapsed:: true
 			- [[macOS 下安装 Python]]
@@ -17,7 +15,6 @@
 		- [[不仅仅是 Hello World]]
 		- [[pip 下载速度太慢了？]]
 		- [[开发和学习工具]]
-		  collapsed:: true
 			- [[Python Shell]]
 			- [[Python Shell Plus: IPython]]
 			- [[Jupyter Notebook]]
