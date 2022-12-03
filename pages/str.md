@@ -1,5 +1,5 @@
 tags:: built-in, builtins, 类, 基础类型, 基础笔记
-alias:: 字符串
+alias:: 字符串, 字符串类型, 文本序列类型
 title:: str
 
 - ## 定义
