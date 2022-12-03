@@ -1,11 +1,15 @@
 - [[Python 语言圣经（不是）]]
 - [[进入 Python 编程世界之前]]
+  collapsed:: true
 	- [[什么是编程？]]
 	- [[查看操作系统是 64 位还是 32 位的方法]]
 - [[快速查询入口]]
 - 快速开始
+  collapsed:: true
 	- [[寻找牛刀，以便小试]]
+	  collapsed:: true
 		- [[安装 Python 解释器]]
+		  collapsed:: true
 			- [[macOS 下安装 Python]]
 			- [[Linux 下安装 Python]]
 			- [[Windows 下安装 Python]]
@@ -13,6 +17,7 @@
 		- [[不仅仅是 Hello World]]
 		- [[pip 下载速度太慢了？]]
 		- [[开发和学习工具]]
+		  collapsed:: true
 			- [[Python Shell]]
 			- [[Python Shell Plus: IPython]]
 			- [[Jupyter Notebook]]
@@ -25,19 +30,24 @@
 			- [[使用 venv 管理虚拟环境]]
 		- [[避免从入门到放弃]]
 - Python 语言学习
+  collapsed:: true
 	- [[Python 基础入门]]
+	  collapsed:: true
 		- [[变量]]
+		- [[表达式]]
+		- [[语句]]
 		- [[基础类型]]
 		  collapsed:: true
 			- [[数值类型]]
 			- [[字符串类型]]
 			- [[布尔类型]]
+		- [[类型转换]]
 		- [[语言要素]]
+		- [[函数]]
 		  collapsed:: true
-			- [[语句]]
-			- [[表达式]]
-			- [[函数]]
-			- [[类]]
+			- [[函数定义]]
+			- [[函数的参数]]
+			- [[函数的返回值]]
 		- [[流程控制]]
 		  collapsed:: true
 			- [[选择语句]]
@@ -47,6 +57,7 @@
 				- [[while 循环]]
 				- [[break]]
 				- [[continue]]
+		- [[方法]]
 		- [[序列类型]]
 		  collapsed:: true
 			- [[列表]]
@@ -64,16 +75,22 @@
 		- [[映射类型]]
 		  collapsed:: true
 			- [[字典]]
+		- [[初识类]]
 	- [[Python 高级进阶]]
+	  collapsed:: true
+		- [[装饰器]]
+		- [[上下文管理器]]
+		- [[生成器]]
 	- [[Python 面向对象]]
 	- [[Python 异步编程]]
 - 常用工具链
+  collapsed:: true
 	- [[自动化测试]]
 	- [[pip 使用指南]]
 - 高级专题
 - 附录
+  collapsed:: true
 	- [[关键字]]
 	- [[运算符]]
 	- [[表达式]]
 	- [[Python 版本说明]]
--
