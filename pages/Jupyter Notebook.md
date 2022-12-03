@@ -18,12 +18,14 @@ title:: Jupyter Notebook
 			- 然后使用浏览器访问 ` http://127.0.0.1:8888` 就可以打开使用 `notebook` 了。
 			- ![notebook](../assets/image_1670075066740_0.png)
 	- ### 创建新的 `notebook`
+	  collapsed:: true
 		- 点击 `new -> Python 3(ipykernel)` 创建新的 `notebook` 文件：
 			- ![新建 notebook](../assets/image_1670075188649_0.png)
 		- ![notebook简介](../assets/image_1670075294411_0.png)
 		- 点击文件名区域可以给文件重命名：
 			- ![重命名 notebook](../assets/image_1670076512094_0.png)
 	- ### 使用 `notebook` 编写代码
+	  collapsed:: true
 		- `notebook` 中每一栏被称为一个 **Cell**，也叫做单元，默认情况下是代码单元，可以在里面编写 Python 的语句。
 		- ![代码单元](../assets/image_1670075628855_0.png)
 		- 每一个代码单元都可以独立的编写和运行。单元格内是程序语句，单元格下面是对应单元格的运行结果。
@@ -40,6 +42,7 @@ title:: Jupyter Notebook
 		- 魔法方法：
 			- ![魔法方法](../assets/image_1670075884347_0.png)
 	- ### 使用 `notebook` 撰写文档
+	  collapsed:: true
 		- 除了代码单元，还要 `markdown` 单元，在里面我们可以使用 `markdown` 的语法撰写笔记和文档：
 			- ![markdown 单元](../assets/image_1670076024130_0.png)
 		- 使用 `markdown` 撰写文档的例子：
@@ -50,3 +53,14 @@ title:: Jupyter Notebook
 		- 常用快捷键：
 			- `m`：在命令模式下使用 `m` 将当前单元切换成 `markdown` 单元。
 		-
+	- ### 在 `notebook` 中安装第三方库
+		- 可以使用 `!pip` 直接在 `notebook` 的代码单元中安装第三方模块
+		- ![安装结果](../assets/image_1670076902977_0.png)
+	- ### 在 `notebook` 中绘制并展示图片
+		- 在上一部分我们安装了 Python 中的绘图库 [[matplotlib]]，这部分演示一下如何在 `notebook` 中绘制并展示图片。
+		- 为了方便图片的展示，可以使用 `%matplotlib inline` 这个魔法方法，使用过后就不需要额外调用 `plt.show()` 方法来显示图片。
+		- 绘制直线：
+			- ![直线](../assets/image_1670077100598_0.png)
+		- 绘制抛物线：
+			- ![抛物线](../assets/image_1670077133512_0.png)
+-
