@@ -16,7 +16,7 @@
 		- [[pip 下载速度太慢了？]]
 		- [[开发和学习工具]]
 			- [[Python Shell]]
-			- [[Python Shell Plus: IPython]]
+			- [[IPython]]
 			- [[Jupyter Notebook]]
 			- [[IDLE 基础教程]]
 			- [[VSCode 基础教程]]
