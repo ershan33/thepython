@@ -18,10 +18,11 @@ title:: Jupyter Notebook
 			- 然后使用浏览器访问 ` http://127.0.0.1:8888` 就可以打开使用 `notebook` 了。
 			- ![notebook](../assets/image_1670075066740_0.png)
 	- ### 创建新的 `notebook`
-	  collapsed:: true
 		- 点击 `new -> Python 3(ipykernel)` 创建新的 `notebook` 文件：
 			- ![新建 notebook](../assets/image_1670075188649_0.png)
 		- ![notebook简介](../assets/image_1670075294411_0.png)
+		- 点击文件名区域可以给文件重命名：
+			- ![重命名 notebook](../assets/image_1670076512094_0.png)
 	- ### 使用 `notebook` 编写代码
 		- `notebook` 中每一栏被称为一个 **Cell**，也叫做单元，默认情况下是代码单元，可以在里面编写 Python 的语句。
 		- ![代码单元](../assets/image_1670075628855_0.png)
@@ -41,6 +42,11 @@ title:: Jupyter Notebook
 	- ### 使用 `notebook` 撰写文档
 		- 除了代码单元，还要 `markdown` 单元，在里面我们可以使用 `markdown` 的语法撰写笔记和文档：
 			- ![markdown 单元](../assets/image_1670076024130_0.png)
+		- 使用 `markdown` 撰写文档的例子：
+			- ![markdown 文档](../assets/image_1670076698416_0.png)
+			- 按下 `ctrl + enter` 可以将其渲染成超文本的效果：
+			- ![渲染后的 markdown](../assets/image_1670076768191_0.png)
+			-
 		- 常用快捷键：
 			- `m`：在命令模式下使用 `m` 将当前单元切换成 `markdown` 单元。
 		-
