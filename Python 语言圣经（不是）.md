@@ -3,7 +3,9 @@
 	- 此外还要感谢 [GitHub Pages](https://pages.github.com/)，[Cloudflare Pages](https://pages.cloudflare.com/)，[Logseq](https://logseq.com/) 等诸多好用的工具集，让我得以基于简单的[[markdown]]语法来快速编辑发布。
 	- 由于本人水平有限，又比较懒所以可能不会放太多的官方资料，书中的内容可能是我的一家之言，如果有所疏漏恳请读者大人批评指正，好处是可能不那么枯燥，但难免带入个人风格，如果觉得过于啰嗦，那么您可能不是本书的目标读者😅除此之外其他有益的建议多多益善😁
 - ## 食用指南
-	- 本书使用 [[logseq]] 编写，核心就是利用双链笔记的便利性把知识点串联到一起。
+	- 本教程内容开源，可以通过访问 [GitHub - ershan33/thepython: The useful and fun python!](https://github.com/ershan33/thepython) 获取全部内容。
+	- 如果觉得有用，还请不要吝啬给它一个⭐。
+	- 本“书”使用 [[logseq]] 编写，核心就是利用双链笔记的便利性把知识点串联到一起。
 	- 好处是可以很容易的跳转到不懂的知识点，坏处是容易迷失，跳着跳着就忘记自己原本的目的是什么了。
 	- 因此相比于按照顺序阅读，更推荐把它当作一本参考手册，需要时通过搜索功能翻阅查找。并且为了分类整理相关的主题，部分内容存在由于功能性重复造成的冗余（例如各种开发工具），各位看官可按需食用。
 	- 一些实用的 `logseg` 快捷键：
@@ -11,4 +13,7 @@
 		- 按下 `td` 进入文档阅读模式。
 		- 按下 `ctrl+k` 进行搜索。
 	- 其它彩蛋请自行发掘。
--
+- ## 关于我
+	- 新手程序员，Python 爱好者
+	- wechat: pyeverything （添加我进入读者群）
+	- github: [https://github.com/ershan33](https://github.com/ershan33)
