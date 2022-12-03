@@ -26,7 +26,6 @@ title:: str
 	- ### [[字符串的操作符]]
 	  id:: 635d5ce2-dd4f-4e80-9949-e80563fbf5c4
 	- ### [[字符串的方法]]
-- ## [[exception]]
-	-
-- {{query (and [[exception]] [[str]])}}
-  query-table:: false
+- ## Exception
+	- {{query (and [[exception]] [[str]])}}
+	  query-table:: false
