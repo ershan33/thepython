@@ -30,4 +30,58 @@
 	- ### 获取历史语句
 		- 使用 `ctrl + r` 搜索获取历史语句
 			- ![获取历史](../assets/ipython_ex3.gif)
-	-
+	- ### Magic Methods
+		- 使用 `timeit` 计算语句运行时间
+			- ```python
+			  In [2]: %timeit list()
+			  23.4 ns ± 0.543 ns per loop (mean ± std. dev. of 7 runs, 10,000,000 loops each)
+			  
+			  In [3]: %timeit []
+			  9.54 ns ± 0.284 ns per loop (mean ± std. dev. of 7 runs, 100,000,000 loops each)
+			  ```
+		- 使用 `alias` 给系统命令起别名
+			- ```python
+			  In [15]: %alias say echo
+			  
+			  In [16]: say hi
+			  hi
+			  ```
+		- 使用 `bookmark` 管理地址
+			- ```plaintext
+			  In [20]: cd /mnt/c/Users/ershan/Documents/thepython/src/
+			  /mnt/c/Users/ershan/Documents/thepython/src
+			  
+			  In [21]: %bookmark -l
+			  Current bookmarks:
+			  
+			  In [22]: %bookmark?  # 查看 magic method 的帮助
+			  Docstring:
+			  Manage IPython's bookmark system.
+			  
+			  %bookmark <name>       - set bookmark to current dir
+			  %bookmark <name> <dir> - set bookmark to <dir>
+			  %bookmark -l           - list all bookmarks
+			  %bookmark -d <name>    - remove bookmark
+			  %bookmark -r           - remove all bookmarks
+			  
+			  You can later on access a bookmarked folder with::
+			  
+			    %cd -b <name>
+			  
+			  or simply '%cd <name>' if there is no directory called <name> AND
+			  there is such a bookmark defined.
+			  
+			  Your bookmarks persist through IPython sessions, but they are
+			  associated with each profile.
+			  File:      ~/miniconda3/lib/python3.9/site-packages/IPython/core/magics/osm.py
+			  
+			  In [23]: %bookmark tpsrc  # 设置当前路径为名为 tpsrc 的书签
+			  
+			  In [24]: %bookmark -l     # 列出当前书签列表
+			  Current bookmarks:
+			  tpsrc -> /mnt/c/Users/ershan/Documents/thepython/src
+			  
+			  In [25]: %cd -b tpsrc     # 跳转到 tpsrc 书签
+			  (bookmark:tpsrc) -> /mnt/c/Users/ershan/Documents/thepython/src
+			  /mnt/c/Users/ershan/Documents/thepython/src
+			  ```
