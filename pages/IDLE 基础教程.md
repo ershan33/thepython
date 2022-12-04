@@ -17,16 +17,20 @@
 	- Step 4. IDLE的文本编辑模式
 	- ![文本编辑模式](../assets/image_1670136921308_0.png)
 	- 点击 `File > New File`，或者直接按快捷键 `Ctrl + N` 会打开一个新的窗口。我们在新窗口的编辑区域输入程序语句 `print("hello idle")`。
-	- ![未保存](../assets/image_1670137010476_0.png)
+	- ![image.png](../assets/image_1670151806596_0.png)
 	- 点击 `File > Save`，或者直接按快捷键 `Ctrl + S` 保存文件，如果文件带 `*` 并且是 `untitled`，会弹出来一个新的窗口，让我们选择文件保存的位置，选择好 [[文件路径]] 后点击保存。
 	- ![保存文件](../assets/image_1670137812016_0.png)
-	- ![选择保存路径](../assets/image_1670137833508_0.png)
+	- ![image.png](../assets/image_1670151828602_0.png)
 	- 我们到保存好的位置就可以看到一个以 `.py` 结尾的文件了。
 	- ![查看保存的文件](../assets/image_1670138074328_0.png)
 	- 点击 `Run > Run Module` 或者按快捷键 `F5` 就可以运行我们的程序啦。
 	- ![运行程序](../assets/image_1670138119657_0.png)
 	- 运行结果：
 	- ![运行结果](../assets/image_1670138153249_0.png)
+	- 常用快捷键 #shortcut #IDLE
+		- `f5`：运行当前文件
+		- `ctrl + n`：创建新文件
+		- `ctrl + s`：保存当前文件
 - ## 简单配置
 	- 点击 `Options -> Configure IDLE` 可以对 `IDLE` 进行简单配置：
 	- ![配置 IDLE](../assets/image_1670143814565_0.png)
@@ -37,4 +41,3 @@
 	- ### 更改主题和配色
 		- ![主题配色](../assets/image_1670144230901_0.png)
 		- ![暗黑模式](../assets/image_1670144267098_0.png)
--
