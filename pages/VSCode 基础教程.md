@@ -5,9 +5,9 @@
 		- {{video https://www.bilibili.com/video/BV1PN4y1L7KS?t=10.2}}
 		- {{renderer :media-timestamp, 18}} 打开官网 [https://code.visualstudio.com/](https://code.visualstudio.com/)，认准这个网址，别被骗了 #beginner
 			- ![打开官网并下载安装包](../assets/image_1670153299628_0.png)
-		- {{renderer :media-timestamp, 61}} 下载安装包
-		- {{renderer :media-timestamp, 1:05}} 开始安装
-		- {{renderer :media-timestamp, 1:15}} 选项讲解
+		- {renderer :media-timestamp, 61} 下载安装包
+		- {renderer :media-timestamp, 1:05} 开始安装
+		- {renderer :media-timestamp, 1:15} 选项讲解
 			- ![安装选项](../assets/image_1670153507443_0.png)
 		- {{renderer :media-timestamp, 2:21}} 从命令行打开 vscode
 		- {{renderer :media-timestamp, 2:50}} 在资源管理器中通过右键打开
