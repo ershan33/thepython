@@ -11,4 +11,8 @@
 			- ![安装选项](../assets/image_1670153507443_0.png)
 		- {{renderer :media-timestamp, 2:21}} 从命令行打开 vscode
 		- {{renderer :media-timestamp, 2:50}} 在资源管理器中通过右键打开
-- ## 安装 Python 插件
+- ## 安装 Python 扩展
+	- VSCode 只是一个文本编辑器，想要使用它比较舒适的编写 Python 程序需要做两件事情：
+		- 一件是确保你的本地已经安装好了 Python 解释器，并且把它添加到了环境变量中；
+		- 另一件是需要安装一些插件，而其中必须要安装的就是微软官方的 [[Python扩展]] 啦。
+	- {{embed [[Python扩展]]}}
