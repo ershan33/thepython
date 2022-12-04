@@ -3,14 +3,11 @@
 - ## 安装 VSCode
 	- 安装的过程可以参考如下视频：
 		- {{video https://www.bilibili.com/video/BV1PN4y1L7KS?t=10.2}}
-		- {{renderer :media-timestamp, 18}} 打开官网 [https://code.visualstudio.com/](https://code.visualstudio.com/)，认准这个网址，别被骗了 #beginner
-			- ![打开官网并下载安装包](../assets/image_1670153299628_0.png)
-		- {renderer :media-timestamp, 61} 下载安装包
-		- {renderer :media-timestamp, 1:05} 开始安装
-		- {renderer :media-timestamp, 1:15} 选项讲解
+	- 打开官网 [https://code.visualstudio.com/](https://code.visualstudio.com/)，认准这个网址下载安装包，注意别被骗了 #beginner
+		- ![打开官网并下载安装包](../assets/image_1670153299628_0.png)
+		- 下载完成后正常安装，注意点在下面的选项讲解：
 			- ![安装选项](../assets/image_1670153507443_0.png)
-		- {{renderer :media-timestamp, 2:21}} 从命令行打开 vscode
-		- {{renderer :media-timestamp, 2:50}} 在资源管理器中通过右键打开
+		- 一路点击下一步直到安装完成。
 - ## 安装 Python 扩展
 	- VSCode 只是一个文本编辑器，想要使用它比较舒适的编写 Python 程序需要做两件事情：
 		- 一件是确保你的本地已经安装好了 Python 解释器，并且把它添加到了环境变量中；
