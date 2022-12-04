@@ -2,7 +2,7 @@ tags:: 基础笔记
 title:: Python Shell
 
 - ## What
-	- > It’s an [[interactive environment]] where you [[type]] some [[Python]] code and press ENTER, and [[Python]] shows you the result.
+	- > It’s an [[interactive environment]] where you [[type]] some [[Python]] code and press ENTER, and [[Python]] shows you the result. #定义
 	- 交互式的 [[Python]] 编程环境，输入 [[Python]] 语句按下回车，立刻就可以得到计算的结果。
 ## Why
 	- 方便学习，可以快速的对新的知识点进行试验。但是不太好用，推荐安装使用 [[IPython]]。
@@ -30,8 +30,8 @@ title:: Python Shell
 		  2
 		  ```
 		- 在交互时环境中`>>>`被称为 [[提示符]]，提示用户后面可以进行输入。`...`表示当前行之后还有后续语句，除非用户输入两次连续的回车。
-- ## 常见 [[exception]]
-	- 在 [[交互式环境]] 下编写 [[python 的复合语句]] 忘记 [[缩进]] 将会造 [[缩进错误]]。#IndentationError #初学者避坑指南
+- ## [[exception]]
+	- 在 [[交互式环境]] 下编写 [[python 的复合语句]] 忘记 [[缩进]] 将会造 [[缩进错误]]。#IndentationError #beginner
 		- ```python
 		  >>> for i in range(3):
 		  ... print(i)
@@ -40,7 +40,7 @@ title:: Python Shell
 		      ^
 		  IndentationError: expected an indented block
 		  ```
-	- 在 [[交互式环境]] 下一次执行多个语句将会造成 [[语法错误]]。#SyntaxError #初学者避坑指南
+	- 在 [[交互式环境]] 下一次执行多个语句将会造成 [[语法错误]]。#SyntaxError #beginner
 		- ```python
 		  >>> for i in range(3):
 		  ...     print(i)
