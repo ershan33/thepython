@@ -27,7 +27,7 @@
 	- 常用快捷键：#shortcut #PyCharm
 		- `Ctrl + Shift + F10`：运行当前文件。
 		- `Shift + Shift`：命令面板
--
+- ## 配置 Python 解释器
 - ## 小结
 	- 学完这一节希望你能够：
 		- 1. 安装 PyCharm；
