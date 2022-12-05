@@ -33,11 +33,12 @@
 	- 设置解释器的方法：
 	  step 1. 点击 Project
 	  step 2. 点击 Python Interpreter
+	  step 3. 点击 Add Interpreter，这一步需要确保你的操作系统安装了 Python 解释器并且添加到 `Path` 中
 	  ![设置系统 python](../assets/image_1670244013839_0.png) 
 	  关于虚拟环境的内容后文再表。
-	  step 3. 点击 Add Interpreter
 	  step 4. 点击下拉菜单选择解释器
-	- ![添加解释器](../assets/image_1670243823513_0.png)
+	  ![添加解释器](../assets/image_1670243823513_0.png)
+	  ![选择系统解释器](../assets/image_1670244292437_0.png)
 - ## 小结
 	- 学完这一节希望你能够：
 		- 1. 安装 PyCharm；
