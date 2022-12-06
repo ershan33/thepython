@@ -1,8 +1,8 @@
 -
 - ## 安装
 	- 搜索 PyCharm 或者直接点击这里打开官网 [PyCharm: the Python IDE for Professional Developers by JetBrains](https://www.jetbrains.com/pycharm/) 下载安装
-	- ![下载1](../assets/image_1670158203295_0.png)
-	- ![下载2](../assets/image_1670158346398_0.png){:height 573, :width 751}
+	- ![下载1](../assets/image_1670158203295_0.png){:height 499, :width 671}
+	- ![下载2](../assets/image_1670158346398_0.png){:height 509, :width 670}
 	- 下载完成后双击打开安装包：
 	- ![打开安装程序](../assets/image_1670158590725_0.png)
 	- 选择安装路径：

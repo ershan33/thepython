@@ -15,32 +15,32 @@
 	- 其实这里的内容和我们在cmd里看到的内容大同小异，我们把cmd称为 [[终端界面]] 或者也叫 [[命令行界面]] ，把IDLE这种称为 [[图形化界面]] 。
 	- 不过 [[IDLE]] 的交互式模式会更加的智能，例如这里我们输入print的时候出现了一些提示，告诉我们如何使用print这个函数。
 	- Step 4. IDLE的文本编辑模式
-	- ![文本编辑模式](../assets/image_1670136921308_0.png)
+	- ![文本编辑模式](../assets/image_1670136921308_0.png){:height 404, :width 747}
 	- 点击 `File > New File`，或者直接按快捷键 `Ctrl + N` 会打开一个新的窗口。我们在新窗口的编辑区域输入程序语句 `print("hello idle")`。
-	- ![image.png](../assets/image_1670151806596_0.png)
+	- ![image.png](../assets/image_1670151806596_0.png){:height 369, :width 525}
 	- 点击 `File > Save`，或者直接按快捷键 `Ctrl + S` 保存文件，如果文件带 `*` 并且是 `untitled`，会弹出来一个新的窗口，让我们选择文件保存的位置，选择好 [[文件路径]] 后点击保存。
 	- ![保存文件](../assets/image_1670137812016_0.png)
-	- ![image.png](../assets/image_1670151828602_0.png)
+	- ![image.png](../assets/image_1670151828602_0.png){:height 356, :width 606}
 	- 我们到保存好的位置就可以看到一个以 `.py` 结尾的文件了。
-	- ![查看保存的文件](../assets/image_1670138074328_0.png)
+	- ![查看保存的文件](../assets/image_1670138074328_0.png){:height 263, :width 608}
 	- 点击 `Run > Run Module` 或者按快捷键 `F5` 就可以运行我们的程序啦。
-	- ![运行程序](../assets/image_1670138119657_0.png)
+	- ![运行程序](../assets/image_1670138119657_0.png){:height 198, :width 611}
 	- 运行结果：
-	- ![运行结果](../assets/image_1670138153249_0.png)
+	- ![运行结果](../assets/image_1670138153249_0.png){:height 294, :width 604}
 	- 常用快捷键 #shortcut #IDLE
 		- `f5`：运行当前文件
 		- `ctrl + n`：创建新文件
 		- `ctrl + s`：保存当前文件
 - ## 简单配置
 	- 点击 `Options -> Configure IDLE` 可以对 `IDLE` 进行简单配置：
-	- ![配置 IDLE](../assets/image_1670143814565_0.png)
+	- ![配置 IDLE](../assets/image_1670143814565_0.png){:height 323, :width 653}
 	- ### 设置==字体，字号==：
-	- ![字体字号](../assets/image_1670143930509_0.png)
-	- ![更改后的字体字号](../assets/image_1670143968012_0.png)
-	- ![更改后的字体字号](../assets/image_1670144008127_0.png)
+	- ![字体字号](../assets/image_1670143930509_0.png){:height 547, :width 619}
+	- ![更改后的字体字号](../assets/image_1670143968012_0.png){:height 577, :width 619}
+	- ![更改后的字体字号](../assets/image_1670144008127_0.png){:height 293, :width 619}
 	- ### 更改主题和配色
-		- ![主题配色](../assets/image_1670144230901_0.png)
-		- ![暗黑模式](../assets/image_1670144267098_0.png)
+		- ![主题配色](../assets/image_1670144230901_0.png){:height 564, :width 590}
+		- ![暗黑模式](../assets/image_1670144267098_0.png){:height 604, :width 590}
 - ## 小结
 	- 学完这一节希望你理解了：
 		- 1. [[交互式模式]] 和[[文件模式]]的区别；
