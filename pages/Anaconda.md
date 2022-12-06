@@ -3,9 +3,8 @@ title:: Anaconda
 
 -
 - ## What
-	- Anaconda 是一个用于科学计算的开源软件包，提供了一个可以管理和部署多版本科学软件的环境。Anaconda 可以从 [Anaconda.org](https://anaconda.org/) 下载。
-- ## Why
 	- Anaconda 是一个用于科学计算的 Python 发行版，它包含了许多用于数据分析、机器学习和其他科学计算领域的常用包。
+- ## Why
 	- 使用 Anaconda 的优点之一是==它可以让用户轻松地在自己的系统上安装这些常用包，并且还可以方便地管理多个不同的包集合（称为虚拟环境）==，以便在不同的项目中使用不同的包版本。
 	- 另外，Anaconda 还提供了一个可视化工具（Anaconda Navigator），可以让用户通过图形界面来管理安装的包和环境。因此，使用 Anaconda 可以为用户提供一个统一的、便捷的平台，让用户能够更快速地开始进行科学计算。
 - ## How
@@ -45,10 +44,8 @@ title:: Anaconda
 	- ### 加速下载包的速度
 		- 可以通过配置国内镜像加速第三方库的下载
 		- 通过命令行：
-			- ![打开终端](../assets/image_1670332707457_0.png)
-			- 上面的步骤会使用当前虚拟环境打开一个终端。
 			- ![打开终端](../assets/image_1670333193282_0.png)
-			- 然后运行下面的命令：
+			- 上面的步骤会使用当前虚拟环境打开一个终端。然后运行下面的命令：
 			- ```sh
 			  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 			  conda config --set show_channel_urls yes
@@ -67,8 +64,8 @@ title:: Anaconda
 				  conda config --add channels https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/
 				  
 				  # 北大
-				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/pkgs/main/
-				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/conda-forge/
-				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/bioconda/
+				  conda config --add channels https://mirrors.pku.edu.cn/anaconda/pkgs/main/
+				  conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/conda-forge/
+				  conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/bioconda/
 				  ```
 -
