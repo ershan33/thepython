@@ -34,9 +34,41 @@ title:: Anaconda
 		- 创建新的虚拟环境
 			- ![创建新的虚拟环境](../assets/image_1670328681679_0.png)
 			- ![可选的 Python 版本](../assets/image_1670328751038_0.png){:height 266, :width 332}
+		- 使用虚拟环境
+			- ![简单使用](../assets/image_1670333828149_0.png)
+			- 具体可参考 [[Jupyter Notebook]]， [[IPython]]， [[Python Shell]]
 		- 切换虚拟环境
 			- ![切换虚拟环境](../assets/image_1670332203934_0.png)
 			- ![切换虚拟环境](../assets/image_1670332248295_0.png)
 		- 删除虚拟环境
--
+			- ![删除虚拟环境](../assets/image_1670332374274_0.png)
+	- ### 加速下载包的速度
+		- 可以通过配置国内镜像加速第三方库的下载
+		- 通过命令行：
+			- ![打开终端](../assets/image_1670332707457_0.png)
+			- 上面的步骤会使用当前虚拟环境打开一个终端。
+			- ![打开终端](../assets/image_1670333193282_0.png)
+			- 然后运行下面的命令：
+			- ```sh
+			  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+			  conda config --set show_channel_urls yes
+			  ```
+			- ![更改镜像源](../assets/image_1670333239954_0.png)
+			- 其他镜像地址：#镜像
+				- ```sh
+				  # 阿里云
+				  conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/main/
+				  conda config --add channels https://mirrors.aliyun.com/anaconda/cloud/conda-forge/
+				  conda config --add channels https://mirrors.aliyun.com/anaconda/cloud/bioconda/
+				  
+				  # 北外
+				  conda config --add channels https://mirrors.bfsu.edu.cn/anaconda/pkgs/main/
+				  conda config --add channels https://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge/
+				  conda config --add channels https://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda/
+				  
+				  # 北大
+				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/pkgs/main/
+				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/conda-forge/
+				  conda config --add channels conda config --add channels https://mirrors.pku.edu.cn/anaconda/cloud/bioconda/
+				  ```
 -
