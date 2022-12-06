@@ -20,5 +20,23 @@ title:: Anaconda
 		  ![选择](../assets/image_1670325193372_0.png)
 		- 5. 安装完成后，您可以在 Windows 开始菜单中找到 Anaconda Navigator 图标，点击该图标打开 Anaconda Navigator。
 		- ![打开导航窗口](../assets/image_1670323648339_0.png){:height 505, :width 581}
-	- ###
+		- 全家桶的大合影：
+		- ![Anaconda 全家桶](../assets/image_1670325901177_0.png)
+	- ### 简单使用
+		- 安装第三方库
+			- 首先勾选 Not Installed
+			- ![选项](../assets/image_1670328143152_0.png)
+			- 然后在右边搜索要安装包的名称，例如 `rich`:
+			- ![安装rich](../assets/image_1670328440322_0.png)
+			- 点击 Apply 然后等待安装完成。
+			- ![点击Apply](../assets/image_1670328481497_0.png)
+			- ![安装完成](../assets/image_1670328581326_0.png)
+		- 创建新的虚拟环境
+			- ![创建新的虚拟环境](../assets/image_1670328681679_0.png)
+			- ![可选的 Python 版本](../assets/image_1670328751038_0.png){:height 266, :width 332}
+		- 切换虚拟环境
+			- ![切换虚拟环境](../assets/image_1670332203934_0.png)
+			- ![切换虚拟环境](../assets/image_1670332248295_0.png)
+		- 删除虚拟环境
+-
 -
