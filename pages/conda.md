@@ -41,4 +41,24 @@ title:: conda
 		  (base) > conda install flask
 		  (base) > conda uninstall flask
 		  ```
--
+	- ### 配置国内镜像
+		- 配置国内镜像加速下载速度：
+		  ```sh
+		  (base) > conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+		  (base) > conda config --set show_channel_urls yes
+		  ```
+	- ### 取消激活虚拟环境
+		- 使用 `conda deactivate` 取消激活当前的虚拟环境，如果默认激活 `base` 则返回到 `base` 环境，否则返回到系统环境：
+		  ```sh
+		  (env_name) > conda deactivate
+		  (base) >
+		  ```
+	- ### 删除虚拟环境
+		- 使用 `conda env remove` 删除虚拟环境，`-n` 指定要删除虚拟环境的名称：
+		  ```sh
+		  (base) > conda env remove -n env_name
+		  (base) > conda env list
+		  # conda environments:
+		  base                  *  C:\Users\ershan\anaconda3
+		  ```
+	-

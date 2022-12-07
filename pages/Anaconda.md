@@ -49,7 +49,8 @@ title:: Anaconda
 		- 通过命令行：
 			- ![打开终端](../assets/image_1670333193282_0.png)
 			- 上面的步骤会使用当前虚拟环境打开一个终端。然后运行下面的命令：
-			- ```sh
+			- id:: 6390a766-b689-4ec4-9a10-73314ada23c4
+			  ```sh
 			  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 			  conda config --set show_channel_urls yes
 			  ```
