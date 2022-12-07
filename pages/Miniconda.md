@@ -9,4 +9,4 @@
 		- 打开 Miniconda 的文档 [Miniconda — conda documentation](https://docs.conda.io/en/latest/miniconda.html) ，找到适合自己操作系统的 Minoconda 版本，点击下载：
 		- ![下载 Miniconda](../assets/image_1670416957164_0.png)
 			- {{embed [[Windows 下安装 Miniconda]]}}
--
+- Miniconda 只提供了命令行的接口，其实也就是 `conda` 的命令行接口。
