@@ -30,4 +30,15 @@ title:: conda
 		  ![虚拟环境其实就是使用不同的环境变量的值](../assets/image_1670430496318_0.png)
 		- 对于 `pip` 来说也是类似的：
 		  ![pip 的路径](../assets/image_1670430564229_0.png)
-	-
+	- ### 安装第三方库
+		- 有两种方法，一种是使用虚拟环境里的 `pip install`:
+		  ```sh
+		  (base) > pip install flask
+		  (base) > pip uninstall flask
+		  ```
+		  另一种是使用 `conda install`:
+		  ```sh
+		  (base) > conda install flask
+		  (base) > conda uninstall flask
+		  ```
+-
