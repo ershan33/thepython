@@ -1,3 +1,6 @@
 -
+- ## Anaconda 使用教程
 - {{embed [[Anaconda]]}}
 -
+- ## Miniconda 使用教程
+- {{embed [[Miniconda]]}}

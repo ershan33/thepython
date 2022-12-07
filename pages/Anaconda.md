@@ -11,11 +11,14 @@ title:: Anaconda
 	- ### 下载和安装 Anaconda
 		- 1. 访问 Anaconda 的官方网站，https://www.anaconda.com/，并下载安装程序。
 		  ![下载安装包](../assets/image_1670323137673_0.png){:height 514, :width 579}
-		- 2. 打开下载的安装程序并按照屏幕上的提示进行操作。遇到选择安装[[用户]]按照如下提示操作：
+		- id:: f095471e-029c-47d8-aa2b-988b76053da2
+		  2. 打开下载的安装程序并按照屏幕上的提示进行操作。遇到选择安装[[用户]]按照如下提示操作：
 		  ![选择用户](../assets/image_1670323910893_0.png)
-		- 3. 点击 Next 选择安装路径，通常安装到默认位置即可，如果安装到其他位置，请记住该安装路径。
+		- id:: cfcad331-cb52-4f33-8843-330eb8ff7263
+		  3. 点击 Next 选择安装路径，通常安装到默认位置即可，如果安装到其他位置，请记住该安装路径。
 		  ![选择安装路径](../assets/image_1670324894843_0.png)
-		- 4. 选择是否添加 Anaconda 到环境变量并注册其为默认的 Python 解释器：
+		- id:: 638f2398-961f-47c2-a452-daa0ac14371a
+		  4. 选择是否添加 Anaconda 到环境变量并注册其为默认的 Python 解释器：
 		  ![选择](../assets/image_1670325193372_0.png)
 		- 5. 安装完成后，您可以在 Windows 开始菜单中找到 Anaconda Navigator 图标，点击该图标打开 Anaconda Navigator。
 		- ![打开导航窗口](../assets/image_1670323648339_0.png){:height 505, :width 581}
