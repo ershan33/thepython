@@ -26,16 +26,23 @@
 		- ```sh
 		  > pipenv install requests
 		  ```
-		- 这条命令会在当前项目的虚拟环境中安装 `requests` 库，同时在 Pipfile.lock 中记录依赖关系。
+		- ![pipenv 安装包](../assets/image_1670510334277_0.png)
+		- 这条命令会在当前项目的虚拟环境中安装 `requests` 库，同时在 [[Pipfile.lock]] 中记录依赖关系。
+		- 如果想要禁用 Pipfile.lock（国内由于网络原因这个过程可能会很久），可以在运行 `pipenv install` 时使用 `--skip-lock` 参数，这样就可以安装最新的包版本而不更新 [[Pipfile.lock]] 。
 	- ### 运行代码
 		- 在虚拟环境中运行 Python 代码的方法与使用 [[virtualenv]] 相同，需要先激活虚拟环境，然后执行 Python 命令即可。激活虚拟环境的命令如下：
 		- ```sh
 		  > pipenv shell
 		  ```
-		- 这条命令会激活当前项目的虚拟环境，使用虚拟环境中的 Python 解释器和第三方库。
+		- 之后就可以在当前终端里使用虚拟环境中的 Python 解释器和第三方库。
 	- ### 退出虚拟环境
 		- 在虚拟环境中执行 exit 命令即可：
 		- ```sh
 		  > exit
 		  ```
--
+	- ### 删除虚拟环境
+		- 使用 `pipenv --rm` 即可删除当前项目目录对应的虚拟环境：
+		- ```sh
+		  > pipenv --rm
+		  ```
+		- ![删除虚拟环境](../assets/image_1670510535298_0.png)
