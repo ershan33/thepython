@@ -6,6 +6,7 @@ title:: conda
 - ## Why
 	- 管理和分发 Python 虚拟环境。
 - ## How
+  id:: 6390a7fd-602f-4fcf-8cce-56d8fe1a65c4
 	- ### 创建虚拟环境
 		- 使用 `conda create` 命令创建虚拟环境：
 		  ```sh
