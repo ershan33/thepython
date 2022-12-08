@@ -55,7 +55,7 @@ title:: Anaconda
 			  conda config --set show_channel_urls yes
 			  ```
 			- ![更改镜像源](../assets/image_1670333239954_0.png)
-			- 其他镜像地址：#镜像
+			- 其他镜像地址：#国内镜像 #conda
 				- ```sh
 				  # 阿里云
 				  conda config --add channels https://mirrors.aliyun.com/anaconda/pkgs/main/

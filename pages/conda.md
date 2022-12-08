@@ -42,7 +42,7 @@ title:: conda
 		  (base) > conda uninstall flask
 		  ```
 	- ### 配置国内镜像
-		- 配置国内镜像加速下载速度：
+		- 配置 [[国内镜像]] 加速下载速度：
 		  ```sh
 		  (base) > conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 		  (base) > conda config --set show_channel_urls yes
