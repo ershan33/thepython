@@ -12,12 +12,15 @@
 		- ```sh
 		  > pip install pipenv
 		  ```
-	- ### 给当前项目创建新的虚拟环境
+	- ### 给当前项目创建新的虚拟环境并激活
 		- ```sh
 		  > pipenv install
 		  > pipenv shell --python /usr/bin/python #可以使用 --python 指定 python 解释器
 		  ```
+		- ![创建并激活虚拟环境](../assets/image_1670509611708_0.png)
 		- 这条命令会在当前目录下生成一个名为 Pipfile 的文件，记录项目的包依赖关系，同时创建一个虚拟环境，用于隔离不同项目之间的依赖。
+		  ![Pipfile](../assets/image_1670509654235_0.png)
+		  ![Pipfile的内容](../assets/image_1670509787841_0.png)
 	- ### 安装包
 		- 在虚拟环境中安装包的方法与使用 [[pip]] 相同，只需在命令前面加上 [[pipenv]] 即可。例如安装 requests 库的命令如下：
 		- ```sh
@@ -35,3 +38,4 @@
 		- ```sh
 		  > exit
 		  ```
+-
