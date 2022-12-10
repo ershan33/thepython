@@ -1,4 +1,4 @@
-tags:: python/statement
+tags:: statement
 alias:: 简单语句
 
 ## What
