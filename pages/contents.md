@@ -27,9 +27,8 @@
 			- [[使用 venv 管理虚拟环境]]
 		- [[避免从入门到放弃]]
 - Python 语言学习
-  collapsed:: true
 	- [[Python 基础入门]]
-	  collapsed:: true
+		- [[字面量]]
 		- [[变量]]
 		- [[表达式]]
 		- [[语句]]
