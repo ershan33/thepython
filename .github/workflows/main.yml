@@ -22,7 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Logseq Publish 🚩
-        uses: pengx17/logseq-publish@main
+        uses: ershan33/logseq-publish@main
         with:
           version: "master"
       - name: add a nojekyll file
