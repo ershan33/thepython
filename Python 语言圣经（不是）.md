@@ -17,6 +17,3 @@
 	- 新手程序员，Python 爱好者
 	- wechat: pyeverything （添加我进入读者群）
 	- github: [https://github.com/ershan33](https://github.com/ershan33)
-- @@html: <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3247793043228755"
-       crossorigin="anonymous"></script>@@
--
